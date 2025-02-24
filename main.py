@@ -22,3 +22,12 @@ if b == '/':
     print(a/c)
 if b == '!':
     print(fac(a))
+if b == '//':
+    print(a//c)
+
+
+
+
+
+
+
