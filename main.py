@@ -1,3 +1,7 @@
+def fac(n):
+    if n == 1:
+        return 1
+    return fac(n - 1) * n
 import math
 a = int(input("Введите , пожалуйста , число:"))
 b = input("Введите операцию:")
@@ -8,8 +12,13 @@ if b == '**':
     print(a**c)
 if b == '√':
     print(math.sqrt(a))
-a = int(input())
-def fac(n):
-    if n == 1:
-        return 1
-    return fac(n - 1) * n
+if b == '+':
+    print(a+c)
+if b == '-':
+    print(a-c)
+if b == '*':
+    print(a*c)
+if b == '/':
+    print(a/c)
+if b == '!':
+    print(fac(a))
